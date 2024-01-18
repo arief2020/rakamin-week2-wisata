@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wisata</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav
+      class="navbar navbar-expand-lg bg-body-tertiary justify-content-center fixed-top"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="#">Wisata</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto">
+            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            <a class="nav-link" href="#popular">Populer</a>
+            <a class="nav-link" href="#galeri">Galeri</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- end navbar -->
+    <!-- Carousel -->
+    <section id="home" class="carousel-wisata container px-0">
+      <div
+        id="carouselExampleAutoplaying"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="https://images.unsplash.com/photo-1642392575692-43ee569c2b50?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=580&ixid=MnwxfDB8MXxyYW5kb218MHx8Y2FuZGl8fHx8fHwxNzA1NTAyMTgw&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080"
+              class="d-block vh-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://images.unsplash.com/photo-1657953758769-e6c67c1dfb15?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=580&ixid=MnwxfDB8MXxyYW5kb218MHx8c2VuaXx8fHx8fDE3MDU1MDIyMjg&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080"
+              class="d-block vh-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://images.unsplash.com/photo-1642653906145-aeb0f9c43b01?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=580&ixid=MnwxfDB8MXxyYW5kb218MHx8c2VuaXx8fHx8fDE3MDU1MDIyOTM&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1080"
+              class="d-block vh-100"
+              alt="..."
+            />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <!-- end Carousel -->
+    <!-- content wisata -->
+    <section id="popular" class="wisata-content container">
+      <div class="row justify-content-center">
+        <div class="col-8">
+          <h3 class="text-center mb-3">Wisata Populer</h3>
+          <p class="text-center">
+            Indonesia, dengan keindahan alamnya yang memukau, menawarkan
+            destinasi wisata populer yang menakjubkan. Dari pesona keberagaman
+            budaya hingga keajaiban alam yang tak terlupakan, berikut beberapa
+            tempat wisata populer di indonesia
+          </p>
+        </div>
+      </div>
+      <div class="row row-cols-1 row-cols-md-2">
+        <div class="col mt-5">
+          <div class="card">
+            <img
+              src="https://images.unsplash.com/photo-1660823652968-b4e11b5061d3?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=320&ixid=MnwxfDB8MXxyYW5kb218MHx8a3VtcHVsYW4ta29tb2RvfHx8fHx8MTcwNTU1NDkxOA&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=640"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Taman Nasional Komodo</h5>
+              <p class="card-text">
+                Taman nasional yang terletak di Nusa Tenggara Timur ini
+                merupakan rumah bagi komodo, kadal terbesar di dunia. Selain
+                komodo, taman nasional ini juga memiliki berbagai macam flora
+                dan fauna lainnya, termasuk hutan hujan tropis, pantai, dan
+                laut.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col mt-5">
+          <div class="card">
+            <img
+              src="https://images.unsplash.com/photo-1703769605332-79bcf45d1c5c?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=320&ixid=MnwxfDB8MXxyYW5kb218MHx8YW1wYXR8fHx8fHwxNzA1NTU0ODIy&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=640"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Raja Ampat</h5>
+              <p class="card-text">
+                Kepulauan yang terletak di Papua Barat ini terkenal dengan
+                keindahan alam bawah lautnya yang luar biasa. Raja Ampat
+                memiliki lebih dari 1.500 spesies ikan, 600 spesies karang, dan
+                700 spesies moluska.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col mt-5">
+          <div class="card">
+            <img
+              src="https://images.unsplash.com/photo-1679323993535-2e76ad15ca65?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=320&ixid=MnwxfDB8MXxyYW5kb218MHx8Qm9yb2J1ZHVyfHx8fHx8MTcwNTU1NDk4OA&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=640"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Borobudur</h5>
+              <p class="card-text">
+                Candi Buddha terbesar di dunia ini terletak di Magelang, Jawa
+                Tengah. Borobudur dibangun pada abad ke-8 dan merupakan salah
+                satu situs warisan dunia UNESCO.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col mt-5">
+          <div class="card">
+            <img
+              src="https://images.unsplash.com/photo-1570174032521-a18ac4975c72?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=320&ixid=MnwxfDB8MXxyYW5kb218MHx8YnJvbW98fHx8fHwxNzA1NTU1MTQ3&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=640"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Taman Nasional Bromo Tengger Semeru</h5>
+              <p class="card-text">
+                Taman nasional yang terletak di Jawa Timur ini merupakan rumah
+                bagi Gunung Bromo, Gunung Semeru, dan berbagai macam flora dan
+                fauna lainnya. Taman nasional ini juga terkenal dengan
+                pemandangan matahari terbitnya yang menakjubkan.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col mt-5">
+          <div class="card">
+            <img
+              src="https://images.unsplash.com/photo-1584547922718-58868780f1d3?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=320&ixid=MnwxfDB8MXxyYW5kb218MHx8dG9yYWphfHx8fHx8MTcwNTU1NTIyNg&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=640"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Tanah Toraja</h5>
+              <p class="card-text">
+                Tanah adat yang terletak di Sulawesi Selatan ini terkenal dengan
+                tradisi pemakamannya yang unik. Tana Toraja memiliki berbagai
+                macam upacara pemakaman tradisional, termasuk upacara pemakaman
+                Rambu Solo' yang memakan waktu hingga berbulan-bulan.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col mt-5">
+          <div class="card">
+            <img
+              src="https://images.unsplash.com/photo-1592364395653-83e648b20cc2?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=320&ixid=MnwxfDB8MXxyYW5kb218MHx8YmFsaXx8fHx8fDE3MDU1NTUzMzY&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=640"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h5 class="card-title">Pulau Dewata</h5>
+              <p class="card-text">
+                Bali merupakan salah satu destinasi wisata paling populer di
+                Indonesia. Pulau ini terkenal dengan keindahan alamnya,
+                budayanya, dan kulinernya. Bali juga memiliki berbagai macam
+                tempat wisata menarik, termasuk pantai, pura, dan desa adat.
+              </p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end content wisata -->
+    <!-- galeri wisata -->
+    <section id="galeri" class="wisata-galeri container">
+      <div class="row justify-content-center">
+        <div class="col-8">
+          <h3 class="text-center mb-3">Wisata Populer</h3>
+          <p class="text-center">
+            Foto-foto wisata Indonesia mengundang Anda untuk menjelajahi
+            kecantikan negara ini melalui lensa yang memukau. Dari pemandangan
+            alam yang menakjubkan hingga kekayaan budaya yang tak terhitung
+            jumlahnya, berikut beberapa foto wisata indonesia
+          </p>
+        </div>
+      </div>
+      <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4">
+        <div class="col mt-3">
+          <div>
+            <img
+              src="https://images.unsplash.com/photo-1601391775296-2b6090c6cf3c?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=376&ixid=MnwxfDB8MXxyYW5kb218MHx8aW5kb25lc2lhfHx8fHx8MTcwNTU1Njk2NA&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=584"
+              alt="..."
+              class="img-fluid"
+            />
+          </div>
+        </div>
+        <div class="col mt-3">
+          <div>
+            <img
+              src="https://images.unsplash.com/photo-1542897644-e04428948020?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=376&ixid=MnwxfDB8MXxyYW5kb218MHx8aW5kb25lc2lhfHx8fHx8MTcwNTU1Nzk1MQ&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=584"
+              alt="..."
+              class="img-fluid"
+            />
+          </div>
+        </div>
+        <div class="col mt-3">
+          <div>
+            <img
+              src="https://images.unsplash.com/photo-1442544213729-6a15f1611937?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=376&ixid=MnwxfDB8MXxyYW5kb218MHx8aW5kb25lc2lhfHx8fHx8MTcwNTU1ODQ4Mg&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=584"
+              alt="..."
+              class="img-fluid"
+            />
+          </div>
+        </div>
+        <div class="col mt-3">
+          <div>
+            <img
+              src="https://images.unsplash.com/photo-1570151579771-14d245e5e9be?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=376&ixid=MnwxfDB8MXxyYW5kb218MHx8aW5kb25lc2lhfHx8fHx8MTcwNTU1ODUwOQ&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=584"
+              alt="..."
+              class="img-fluid"
+            />
+          </div>
+        </div>
+        <div class="col mt-3">
+          <div>
+            <img
+              src="https://images.unsplash.com/photo-1512631911403-3e3a06d12389?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=376&ixid=MnwxfDB8MXxyYW5kb218MHx8aW5kb25lc2lhfHx8fHx8MTcwNTU1ODUyNQ&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=584"
+              alt="..."
+              class="img-fluid"
+            />
+          </div>
+        </div>
+        <div class="col mt-3">
+          <div>
+            <img
+              src="https://images.unsplash.com/photo-1518548419970-58e3b4079ab2?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=376&ixid=MnwxfDB8MXxyYW5kb218MHx8aW5kb25lc2lhfHx8fHx8MTcwNTU1ODU1NQ&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=584"
+              alt="..."
+              class="img-fluid"
+            />
+          </div>
+        </div>
+        <div class="col mt-3">
+          <div>
+            <img
+              src="https://images.unsplash.com/photo-1513415756790-2ac1db1297d0?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=376&ixid=MnwxfDB8MXxyYW5kb218MHx8aW5kb25lc2lhfHx8fHx8MTcwNTU1ODU4NA&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=584"
+              alt="..."
+              class="img-fluid"
+            />
+          </div>
+        </div>
+        <div class="col mt-3">
+          <div>
+            <img
+              src="https://images.unsplash.com/photo-1555066657-4ea53882eaba?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=376&ixid=MnwxfDB8MXxyYW5kb218MHx8aW5kb25lc2lhfHx8fHx8MTcwNTU1ODYxMw&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=584"
+              alt="..."
+              class="img-fluid"
+            />
+          </div>
+        </div>
+        <div class="col mt-3">
+          <div>
+            <img
+              src="https://images.unsplash.com/photo-1531778272849-d1dd22444c06?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=376&ixid=MnwxfDB8MXxyYW5kb218MHx8aW5kb25lc2lhfHx8fHx8MTcwNTU1ODY0NA&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=584"
+              alt="..."
+              class="img-fluid"
+            />
+          </div>
+        </div>
+        <div class="col mt-3">
+          <div>
+            <img
+              src="https://images.unsplash.com/photo-1539367457300-96d418e781fb?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=376&ixid=MnwxfDB8MXxyYW5kb218MHx8aW5kb25lc2lhfHx8fHx8MTcwNTU1ODY2NQ&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=584"
+              alt="..."
+              class="img-fluid"
+            />
+          </div>
+        </div>
+        <div class="col mt-3">
+          <div>
+            <img
+              src="https://images.unsplash.com/photo-1520277872024-58b40679ddb4?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=376&ixid=MnwxfDB8MXxyYW5kb218MHx8aW5kb25lc2lhfHx8fHx8MTcwNTU1ODY4Ng&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=584"
+              alt="..."
+              class="img-fluid"
+            />
+          </div>
+        </div>
+        <div class="col mt-3">
+          <div>
+            <img
+              src="https://images.unsplash.com/photo-1607427225127-a4ae1d4b050c?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=376&ixid=MnwxfDB8MXxyYW5kb218MHx8aW5kb25lc2lhfHx8fHx8MTcwNTU1ODcxMg&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=584"
+              alt="..."
+              class="img-fluid"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end galeri -->
+    <!-- Footer -->
+    <footer>
+      <div class="row">
+        <div class="col">created by arief</div>
+      </div>
+    </footer>
+    <!-- end footer -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

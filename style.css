@@ -1,0 +1,17 @@
+body{
+    background-image: url("https://img.freepik.com/free-vector/floral-seamless-pattern-element-arabian-style-arabesque-pattern_1217-1150.jpg?size=626&ext=jpg&ga=GA1.2.540513159.1705559549&semt=ais");
+   overflow-x: hidden;
+}
+
+.wisata-content, .wisata-galeri{
+    background-color: white;
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+footer{
+    text-align: center;
+    color: white;
+    background-color: #3D3D3D;
+    padding: 20px 0;
+}

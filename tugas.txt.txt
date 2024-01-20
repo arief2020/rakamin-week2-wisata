@@ -1,7 +1,7 @@
 Tugas week 2
 
 github pages:
-
+https://arief2020.github.io/rakamin-week2-wisata/
 
 link github:
 https://github.com/arief2020/rakamin-week2-wisata
